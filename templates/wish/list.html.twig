@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+
+{% block titre %}
+{{ titre }} | {{ parent() }}
+{% endblock %}
+
+
+{% block main %}
+<h1>{{ titre }}</h1>
+<ul>
+    <li><a href="https://www.dubcampfestival.com/">Jouer au Dub camp</a></li>
+    <li><a href="https://burningman.org/">Faire le burning man</a></li>
+    <li><a href="https://earth.google.com/web/">Visiter chaque continent</a></li>
+</ul>
+
+{% endblock %}
